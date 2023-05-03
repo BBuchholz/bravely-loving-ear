@@ -16,17 +16,7 @@ const { t } = useI18n()
 
 <template>
   <div>
-    <img alt="Coventry Grove Builders Association Presents logo" src="/CGBAP_LOGO_CROPPED.png">
-    <p>
-      <a rel="noreferrer" href="https://github.com/BBuchholz/worthy-mountain" target="_blank">
-        Worthy Mountain
-      </a>
-    </p>
-    <p>
-      <em text-sm opacity-75>base template for all Coventry Grove Projeckts</em>
-    </p>
-
-    <div py-4 />
+    <img alt="Shepton Transmission Services logo" src="/STS_Shepton-logo.png">
 
     <TheInput
       v-model="name"
@@ -55,8 +45,8 @@ meta:
 
 <style>
 img {
-  height: 25%;
-  width: 25%;
+  height: 100%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
